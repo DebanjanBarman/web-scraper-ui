@@ -62,8 +62,7 @@
           v-for="(image, i) in images"
           :key="i"
         >
-          <img src="../../../project-env/plants-images-web-scraper/plants-images/Tulipa/Tulipa_1.jpg" :alt="query">
-          <img src="../../../project-env/plants-images-web-scraper/plants-images/Tulipa/Tulipa_1.jpg" alt="">
+          <img :src="image" :alt="query">
         </v-col>
       </v-row>
     </v-responsive>
